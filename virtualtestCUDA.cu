@@ -50,4 +50,6 @@ int main()
 
     // Delete Base object on GPU.
     delete_base<<<1, 1>>>( d_base );
+
+    printf( "Finished!\n" );
 }
