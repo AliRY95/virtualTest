@@ -1,38 +1,34 @@
 #include <iostream>
 using namespace std;
 
-class Base {
-   public:
-    virtual void print() {
-        cout << "Base Function" << endl;
-    }
+class Particle {
+    public:
+        virtual void print() const { cout << "Particle Function" << endl; }
 };
 
-class Derived1 : public Base {
-   public:
-    void print() {
-        cout << "Derived1 Function" << endl;
-    }
+class Sphere : public Particle {
+    public:
+        void print() const { cout << "Sphere Function" << endl; }
 };
 
-class Derived2 : public Base {
-   public:
-    void print() {
-        cout << "Derived2 Function" << endl;
-    }
+class Box : public Particle {
+    public:
+        void print() const { cout << "Box Function" << endl; }
+};
+
+void printClass( const Particle& Particle )
+{
+    Particle.print();
 };
 
 int main() {
-    Derived1 derived1;
-    Derived2 derived2;
-
-    // pointer of Base type that points to derived1
-    Base* base1 = &derived1;
-    Base* base2 = &derived2;
+    // pointer of Particle type that points to a Sphere or Box obj
+    Particle* Particle1 = new Sphere();
+    Particle* Particle2 = new Box();
 
     // calls member function of Derived class
-    base1->print();
-    base2->print();
+    printClass( *Particle1 );
+    printClass( *Particle2 );
 
     return 0;
 }
