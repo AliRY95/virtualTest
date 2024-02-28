@@ -1,6 +1,7 @@
 #include <hip/hip_runtime.h>
 #include <iostream>
 
+
 class Base
 {
 public:
@@ -27,10 +28,12 @@ public:
 
 
 
+
 // -----------------------------------------------------------------------------
 // KERNELS
 __global__ void create_base( Base** base, int myInt )
 {
+    printf( "printf on GPU!\n" );
     if ( threadIdx.x == 0 && blockIdx.x == 0 )
         (*base) = new Derived( myInt );
 }
@@ -42,7 +45,6 @@ __global__ void increase_and_print( Base** base )
         (*base)->increaseInt();
         (*base)->printInt();
     }
-    __syncthreads();
 }
 
 __global__ void delete_base( Base** base )

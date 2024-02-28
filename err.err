@@ -1,0 +1,492 @@
+Lmod has detected the following error: These module(s) or extension(s) exist
+but cannot be loaded as requested: "CPE-23.02-rocmcc-5.3.0-GPU-softs"
+   Try: "module spider CPE-23.02-rocmcc-5.3.0-GPU-softs" to see how to load the
+module(s).
+
+
+
+
+Currently Loaded Modules:
+  1) amd/5.7.1          4) libfabric/1.15.2.0   7) cray-libsci/23.12.5
+  2) craype/2.7.30      5) craype-network-ofi   8) PrgEnv-amd/8.5.0
+  3) cray-dsmml/0.2.2   6) cray-mpich/8.1.28
+
+ 
+
+
+Currently Loaded Modules:
+  1) amd/5.7.1          4) libfabric/1.15.2.0   7) cray-libsci/23.12.5
+  2) craype/2.7.30      5) craype-network-ofi   8) PrgEnv-amd/8.5.0
+  3) cray-dsmml/0.2.2   6) cray-mpich/8.1.28
+
+ 
+
+In file included from <built-in>:1:
+In file included from /opt/rocm-5.5.1/llvm/lib/clang/16.0.0/include/__clang_hip_runtime_wrapper.h:54:
+/opt/rocm-5.5.1/hip/include/hip/hip_version.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+/opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:59:
+/opt/rocm-5.5.1/hip/include/hip/hip_common.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:32:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_common.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+/opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:487:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/host_defines.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:488:
+/opt/rocm-5.5.1/hip/include/hip/driver_types.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:489:
+/opt/rocm-5.5.1/hip/include/hip/texture_types.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:489:
+In file included from /opt/rocm-5.5.1/hip/include/hip/texture_types.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/texture_types.h:38:
+/opt/rocm-5.5.1/hip/include/hip/channel_descriptor.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:489:
+In file included from /opt/rocm-5.5.1/hip/include/hip/texture_types.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/texture_types.h:38:
+In file included from /opt/rocm-5.5.1/hip/include/hip/channel_descriptor.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/channel_descriptor.h:32:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_channel_descriptor.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:489:
+In file included from /opt/rocm-5.5.1/hip/include/hip/texture_types.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/texture_types.h:38:
+In file included from /opt/rocm-5.5.1/hip/include/hip/channel_descriptor.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/channel_descriptor.h:32:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_channel_descriptor.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_channel_descriptor.h:28:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_vector_types.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:490:
+/opt/rocm-5.5.1/hip/include/hip/surface_types.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:7375:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime_pt_api.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:110:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/hip_ldg.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:112:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_atomic.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:112:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_atomic.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_atomic.h:25:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_device_functions.h:34:
+/opt/rocm-5.5.1/hip/include/hip/hip_vector_types.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:112:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_atomic.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_atomic.h:25:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_device_functions.h:35:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/device_library_decls.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:114:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_device_functions.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:115:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_surface_functions.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:115:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_surface_functions.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_surface_functions.h:30:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/ockl_image.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:116:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/texture_fetch_functions.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:116:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/texture_fetch_functions.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/texture_fetch_functions.h:28:
+/opt/rocm-5.5.1/hip/include/hip/hip_texture_types.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:117:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/texture_indirect_functions.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:382:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_math_functions.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:114:
+/opt/rocm-5.5.1/hip/include/hip/library_types.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+26 warnings generated when compiling for gfx90a.
+In file included from <built-in>:1:
+In file included from /opt/rocm-5.5.1/llvm/lib/clang/16.0.0/include/__clang_hip_runtime_wrapper.h:54:
+/opt/rocm-5.5.1/hip/include/hip/hip_version.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+/opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:59:
+/opt/rocm-5.5.1/hip/include/hip/hip_common.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:32:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_common.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+/opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:487:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/host_defines.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:488:
+/opt/rocm-5.5.1/hip/include/hip/driver_types.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:489:
+/opt/rocm-5.5.1/hip/include/hip/texture_types.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:489:
+In file included from /opt/rocm-5.5.1/hip/include/hip/texture_types.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/texture_types.h:38:
+/opt/rocm-5.5.1/hip/include/hip/channel_descriptor.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:489:
+In file included from /opt/rocm-5.5.1/hip/include/hip/texture_types.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/texture_types.h:38:
+In file included from /opt/rocm-5.5.1/hip/include/hip/channel_descriptor.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/channel_descriptor.h:32:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_channel_descriptor.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:489:
+In file included from /opt/rocm-5.5.1/hip/include/hip/texture_types.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/texture_types.h:38:
+In file included from /opt/rocm-5.5.1/hip/include/hip/channel_descriptor.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/channel_descriptor.h:32:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_channel_descriptor.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_channel_descriptor.h:28:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_vector_types.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:490:
+/opt/rocm-5.5.1/hip/include/hip/surface_types.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:105:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime_api.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime_api.h:7375:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime_pt_api.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:110:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/hip_ldg.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:112:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_atomic.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:112:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_atomic.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_atomic.h:25:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_device_functions.h:34:
+/opt/rocm-5.5.1/hip/include/hip/hip_vector_types.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:112:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_atomic.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_atomic.h:25:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_device_functions.h:35:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/device_library_decls.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:114:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_device_functions.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:115:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_surface_functions.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:115:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_surface_functions.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_surface_functions.h:30:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/ockl_image.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:116:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/texture_fetch_functions.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:116:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/texture_fetch_functions.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/texture_fetch_functions.h:28:
+/opt/rocm-5.5.1/hip/include/hip/hip_texture_types.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:117:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/texture_indirect_functions.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:62:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/amd_detail/../../../../include/hip/amd_detail/amd_hip_runtime.h:382:
+/opt/rocm-5.5.1/hip/include/hip/amd_detail/amd_math_functions.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+In file included from HIP_virtualTest.cpp:1:
+In file included from /opt/rocm-5.5.1/hip/include/hip/hip_runtime.h:31:
+In file included from /opt/rocm-5.5.1/hip/include/hip/../../../include/hip/hip_runtime.h:114:
+/opt/rocm-5.5.1/hip/include/hip/library_types.h:26:2: warning: "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path" [-W#warnings]
+#warning "This file is deprecated. Use header files from HIP_PATH/include, where HIP_PATH corresponds to HIP install path"
+ ^
+26 warnings generated when compiling for host.
+/var/spool/slurmd/job652505/slurm_script: line 40: run: command not found
